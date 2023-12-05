@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panuphon Chotchanet</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <a href="index.html" class="nav__logo">
+          <i class="ri-pass-pending-fill"></i> Profiles
+        </a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#" class="nav__link"></a></li>
+          <li class="dropdown__item">
+            
+
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Menu <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+            <ul class="dropdown__menu">
+              <li>
+                <a href="index.html" class="dropdown__link">
+                   Profiles
+                </a>
+              </li>
+              <li>
+                <a href="Api.html" class="dropdown__link">
+                   API
+                </a>
+              </li>
+              <li>
+                <a href="Js.html" class="dropdown__link">
+                   JS
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="sec-4">
+    <h1>API</h1>
+    <p>Random img dog</p>
+  </section>
+
+  <section class="sec-5">
+    <img id="dogImage" src="/img/unnamed.png" width="500" height="545"><br><br>
+    <button class="button" onclick="getDogImage()">Ramdom</button>
+  </section>
+  
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <p>By Panuphon Khon Kaen Technical College &copy; 2023</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
